@@ -1,6 +1,6 @@
 from xmlrpc.client import ServerProxy
 
-proxy = ServerProxy("http://localhost:3000")
+proxy = ServerProxy("http://35.222.202.92:3000")
 
 if __name__ == '__main__':
     print("Welcome to the calculator")
