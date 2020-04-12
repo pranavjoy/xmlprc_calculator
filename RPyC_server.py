@@ -1,6 +1,6 @@
 from xmlrpc.server import SimpleXMLRPCServer
 
-server = SimpleXMLRPCServer(('localhost', 3000), logRequests=True)
+server = SimpleXMLRPCServer(('0.0.0.0', 3000), logRequests=True)
 
 
 def calculate(op, a, b):
